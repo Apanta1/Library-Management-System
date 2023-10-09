@@ -35,7 +35,14 @@ class LibraryManagementSystem:
 
         textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=29)
         textIDNUMBER.grid(row=1,column=1)
-        
+
+
+
+
+
+
+
+
         DataFrameRight = LabelFrame(frame, text="Book Details", bg="powder blue",
                       fg="green", bd=12, relief=RIDGE, font=("times new roman", 20, "bold"))#creating a new frame
         DataFrameRight.place(x=860, y=5, width=450, height=350)
@@ -51,6 +58,27 @@ class LibraryManagementSystem:
         FrameDetails = Frame(self.root, bd = 12, relief = RIDGE, 
                       padx = 20, bg = "powder blue") #creating frame for information
         FrameDetails.place(x=0, y=660, width=1420, heigh=150)
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     root = Tk()

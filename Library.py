@@ -20,7 +20,7 @@ class LibraryManagementSystem:
         #---------------Data Frame Left----------------------------------------------
 
         DataFrameLeft = LabelFrame(frame, text="Library Management System", bg="powder blue", fg="green", bd=12, relief=RIDGE, font=("times new roman", 20, "bold"))#creating a new frame
-        DataFrameLeft.place(x=0, y=5, width=890, height=350)
+        DataFrameLeft.place(x=0, y=5, width=890, height=400)
 
         #Label for "Member Type"
         lblMember=Label(DataFrameLeft, bg = "powder blue", text="Member Type", font=("times new roman", 20, "bold"), padx=2, pady=6)
@@ -88,10 +88,94 @@ class LibraryManagementSystem:
 
         #Label for "Date Due"
         lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Date Due:", font=("times new roman", 20, "bold"), padx=2, pady=6)
-        lblIDNUMBER.grid(row=3,column=4,sticky=W)
+        lblIDNUMBER.grid(row=4,column=4,sticky=W)
 
         textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
-        textIDNUMBER.grid(row=3,column=5)
+        textIDNUMBER.grid(row=4,column=5)
+
+        #Label for "Address1"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Address 1:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=5,column=0,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=5,column=1)
+
+        #Label for "Days on Book"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Days On Book:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=5,column=4,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=5,column=5)
+
+        #Label for "Address2"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Address 2:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=6,column=0,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=6,column=1)
+
+        #Label for "Late Return Fine"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Late Return Fine:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=6,column=4,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=6,column=5)
+
+        #Label for "Postal Code"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Postal Code:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=7,column=0,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=7,column=1)
+
+        #Label for "Date over Due"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Date Over Due:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=7,column=4,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=7,column=5)
+
+        #Label for "Mobile Number"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Mobile Number:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=8,column=0,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=8,column=1)
+
+        #Label for "Actual Price"
+        lblIDNUMBER=Label(DataFrameLeft, bg = "powder blue", text="Actual Price:", font=("times new roman", 20, "bold"), padx=2, pady=6)
+        lblIDNUMBER.grid(row=8,column=4,sticky=W)
+
+        textIDNUMBER=Entry(DataFrameLeft,font=("times new roman", 20, "bold"), width=25)
+        textIDNUMBER.grid(row=8,column=5)
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -104,7 +188,7 @@ class LibraryManagementSystem:
         #---------------Data Frame Right----------------------------------------------
         DataFrameRight = LabelFrame(frame, text="Book Details", bg="powder blue",
                       fg="green", bd=12, relief=RIDGE, font=("times new roman", 20, "bold"))#creating a new frame
-        DataFrameRight.place(x=900, y=5, width=480, height=350)
+        DataFrameRight.place(x=900, y=5, width=480, height=400)
 
         #---------------Buttons Frame----------------------------------------------
 
